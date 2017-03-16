@@ -1,0 +1,36 @@
+body
+{
+ text-align:center;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:ariel;
+ background-color:#000;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+p
+{
+ margin-top:100px;
+ color:#fff;
+ font-size:55px;
+}
+
+#blink_content
+{
+ font-size:30px;
+ color:#f00;
+ font-weight:bold;
+ animation: blink 1s infinite;	
+}
+@keyframes blink 
+{  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
